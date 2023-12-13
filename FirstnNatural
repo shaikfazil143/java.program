@@ -1,0 +1,17 @@
+// Program to display first n natural numbers
+import java.util.Scanner;
+
+public class FirstnNatural
+{
+      public static void main(String args[])
+      {
+         Scanner reader = new Scanner(System.in);
+         System.out.print("Enter the total numbers:");
+         int num = reader.nextInt();
+         System.out.print("First "+num+"natural numbers are");
+         for(int i=1;i<=num;i++)
+         {
+            System.out.print(i);
+         }
+      }
+}
